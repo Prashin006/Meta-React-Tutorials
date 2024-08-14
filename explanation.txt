@@ -1,0 +1,34 @@
+React.js is a clien-side javascript library for SPA (single page applications). Offers rich user interfaces, speed, scalability and flexibility.
+React has a component-based architecture(build software based on reusable code)
+
+# COMPONENTS
+
+1. A website is made of independent components. Components are simply functions or chunks of UIs.
+2. React.js provides 2 types of components - FUNCTIONAL AND CLASS-BASED 
+3. Uses virtual DOM and makes the processing of the web page faster
+4. React uses a special syntax known as JSX(JavaScript XML) => syntax extension to JavaScript
+5. We return JSX inside the functional components (looks similar to HTML but it essentially is JSX and allows us to write JavaScript code inside it)
+6. All component names in React must be capitalized. This is because React treats lowercase elements as HTML elements and so as to distinguish HTML elements from JSX we use capitalized letters.
+7. Transpiling is the process of interpreting a programming language and translating it to a specific target language. React uses transpiling to render JSX elements  
+
+
+# STATES
+
+1. The values of all the variables your app is working with at any given point is defined as the state.
+
+
+# REACT BASICS
+
+React is open-source
+1. Styling React apps
+2. Event handling
+3. Navigation and assests
+4. Portfolio project
+
+
+
+
+
+
+
+
