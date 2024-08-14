@@ -20,6 +20,23 @@ React has a component-based architecture(build software based on reusable code)
 15. Pure functions are functions that always return the same output for the same argument values. A child component receiving props must not modify it, it can only read and display the props
 16. JSX allows developers to render HTML inside JavaScript code
 17. HTML => JSX => REACT. One of the key features of JSX is to add HTML elements as React elements
+18. Embedded Expressions allow JavaScript values to be inserted into HTML of React element.
+
+
+# Event Handling
+
+1. Use JavaScript for handling events instead of HTML 
+For eg, instead of this <button id="js-btn" onclick="clickHandler()">Click me </button>
+use this, a. Plug into HTML element on which to listen for event 
+b. Use addEventListener method on the document object
+
+const jsBtn = document.getElementById('js-btn);
+jsBtn.addEventListener('click',function(){
+  console.log('clicked');
+});
+
+2. In React the rule is to avoid manipulating the DOM as much as possible
+
 
 
 # STATES
