@@ -10,6 +10,16 @@ React has a component-based architecture(build software based on reusable code)
 5. We return JSX inside the functional components (looks similar to HTML but it essentially is JSX and allows us to write JavaScript code inside it)
 6. All component names in React must be capitalized. This is because React treats lowercase elements as HTML elements and so as to distinguish HTML elements from JSX we use capitalized letters.
 7. Transpiling is the process of interpreting a programming language and translating it to a specific target language. React uses transpiling to render JSX elements  
+8. export statement is used to make modules available to other modules. Think of javascript files as modules
+9. Default export is used when function/component name is same as file name and named exports are used when we want the function name to be different from the filename
+10. Component is a small piece of functionality while module is a series of components
+11. props or properties in React allow us to pass data from one component to another.
+12. We can send multiple data types using props. Props allows for flexible dynamic content
+13. When two components communicate with each other using props, the element sending the props is the parent and the component receiving the props data is the child
+14. It is not possible to send props from child to parent component.
+15. Pure functions are functions that always return the same output for the same argument values. A child component receiving props must not modify it, it can only read and display the props
+16. JSX allows developers to render HTML inside JavaScript code
+17. HTML => JSX => REACT. One of the key features of JSX is to add HTML elements as React elements
 
 
 # STATES
