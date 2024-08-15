@@ -21,6 +21,7 @@ React has a component-based architecture(build software based on reusable code)
 16. JSX allows developers to render HTML inside JavaScript code
 17. HTML => JSX => REACT. One of the key features of JSX is to add HTML elements as React elements
 18. Embedded Expressions allow JavaScript values to be inserted into HTML of React element.
+19. In React, props always flow from parent to child component
 
 
 # Event Handling
